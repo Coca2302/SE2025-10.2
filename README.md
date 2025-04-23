@@ -17,7 +17,7 @@ Inferix aims to decentralize verification processes. The Testnet phase focuses o
 ## Repository Structure
 
 - **contracts/**: Contains the Solidity smart contracts.
-- **ignition/modules/**: Includes the deployment script `InferixToken.js` for the Testnet phase.
+- **ignition/modules/**: Includes the deployment script `InferixToken.js` and `InferixUSDToken.js` for the Testnet phase.
 - **test/**: Contains unit tests to ensure contract functionality.
 - **hardhat.config.js**: Configuration for the Hardhat development environment.
 
@@ -27,7 +27,7 @@ Inferix aims to decentralize verification processes. The Testnet phase focuses o
 
 - [Node.js](https://nodejs.org/) (v20+ recommended)
 - [Hardhat](https://hardhat.org/)
-- Access to the IoTeX Testnet network
+- Access to the Arbitrum One and IoTeX Testnet network
 
 ### Installation
 
@@ -69,7 +69,7 @@ Inferix aims to decentralize verification processes. The Testnet phase focuses o
 
 ### Deployment
 
-1. Configure the IoTeX Testnet details in `hardhat.config.js`.
+1. Configure the blockchain network details in `hardhat.config.js`.
 2. Deploy the ERC20 token contract using the Ignition module:
 
    ```bash
