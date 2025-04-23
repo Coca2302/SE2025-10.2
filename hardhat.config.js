@@ -25,14 +25,29 @@ module.exports = {
       chainId: 4690,
       url: process.env.RPC_IOTEX_TESTNET,
     },
+    iotex_mainnet: {
+      accounts: privateKeys,
+      chainId: 4689,
+      url: process.env.RPC_IOTEX_MAINNET,
+    },
+    arbSepolia: {
+      accounts: privateKeys,
+      chainId: 421614,
+      url: process.env.RPC_ARBITRIUM_SEPOLIA,
+    },
+    arb: {
+      accounts: privateKeys,
+      chainId: 42161,
+      url: process.env.RPC_ARBITRIUM,
+    }
   },
   solidity: {
     version: "0.8.24",
     settings: {
       optimizer: {
         enabled: true,
-        runs: 1000,
-      },
-    },
-  },
+        runs: 1000
+      }
+    }
+  }
 };
