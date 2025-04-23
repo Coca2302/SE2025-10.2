@@ -1,10 +1,10 @@
 # Inferix Token Contracts
 
-This repository contains the smart contracts for the **Testnet phase** of the [Inferix](https://inferix.io/) project. These contracts enable users to interact with the IoTeX Testnet environment and test a simple ERC20 token implementation.
+This repository contains the smart contracts of tokens, including tokens for the **Testnet phase** of the [Inferix](https://inferix.io/) project. These contracts enable users to interact with the EVM Testnet environment and test a simple ERC20 token implementation.
 
 ## Project Overview
 
-Inferix aims to decentralize verification processes. This Testnet phase focuses on:
+Inferix aims to decentralize verification processes. The Testnet phase focuses on:
 
 - Testing the functionality and robustness of the ERC20 token contract.
 - Preparing for the Mainnet launch by gathering feedback and ensuring security.
