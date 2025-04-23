@@ -34,8 +34,8 @@ Inferix aims to decentralize verification processes. This Testnet phase focuses 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/inferixgpu/token-contract-testnet.git
-   cd token-contract-testnet
+   git clone https://github.com/inferixgpu/token-smartcontract-evm.git
+   cd token-smartcontract-evm
    ```
 
 2. Install dependencies:
@@ -43,14 +43,25 @@ Inferix aims to decentralize verification processes. This Testnet phase focuses 
    ```bash
    npm install
    ```
+2. Create .env file at project's root folder
 
-3. Compile the contracts:
+   ```
+   PRIVATE_KEYS=<Contract owner's wallet Private Key>
+   ETHERSCAN_API_KEY=8KWKNUKA2NWKK4SWS76F54D3JUE442Y88E
+   RPC_IOTEX_TESTNET=https://babel-api.testnet.iotex.io
+   RPC_IOTEX_MAINNET=https://babel-api.mainnet.iotex.io
+   RPC_ARBITRIUM_SEPOLIA=https://sepolia-rollup.arbitrum.io/rpc
+   RPC_ARBITRIUM=https://arb1.arbitrum.io/rpc
+   ETHERSCAN_ARB_APIKEY=8KWKNUKA2NWKK4SWS76F54D3JUE442Y88E
+   ```
+
+4. Compile the contracts:
 
    ```bash
    npx hardhat compile
    ```
 
-4. Run the tests:
+5. Run the tests:
 
    ```bash
    npx hardhat test
