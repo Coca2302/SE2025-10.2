@@ -30,6 +30,11 @@ module.exports = {
       chainId: 4689,
       url: process.env.RPC_IOTEX_MAINNET,
     },
+    sepolia: {
+      chainId: 11155111,
+      url: "https://1rpc.io/sepolia",
+      accounts: privateKeys,
+    },
     arbSepolia: {
       accounts: privateKeys,
       chainId: 421614,
