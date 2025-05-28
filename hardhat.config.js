@@ -20,30 +20,30 @@ module.exports = {
   networks: {
     hardhat: {
     },
-    iotex_testnet: {
+    iotextest: {
       accounts: privateKeys,
       chainId: 4690,
-      url: process.env.RPC_IOTEX_TESTNET,
+      url: "https://babel-api.testnet.iotex.io",
     },
-    iotex_mainnet: {
+    iotex: {
       accounts: privateKeys,
       chainId: 4689,
-      url: process.env.RPC_IOTEX_MAINNET,
+      url: "https://babel-api.mainnet.iotex.io",
     },
     sepolia: {
       chainId: 11155111,
       url: "https://1rpc.io/sepolia",
       accounts: privateKeys,
     },
-    arbSepolia: {
+    arbsep: {
       accounts: privateKeys,
       chainId: 421614,
-      url: process.env.RPC_ARBITRIUM_SEPOLIA,
+      url: "https://sepolia-rollup.arbitrum.io/rpc"
     },
     arb: {
       accounts: privateKeys,
       chainId: 42161,
-      url: process.env.RPC_ARBITRIUM,
+      url: "https://arb1.arbitrum.io/rpc",
     }
   },
   solidity: {
