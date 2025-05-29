@@ -1,5 +1,5 @@
 {
-  "name": "inferix-token-contract",
+  "name": "inferix-token-contracts",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,18 +12,13 @@
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@nomicfoundation/hardhat-verify": "^2.0.13",
     "@nomicfoundation/ignition-core": "^0.15.11",
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@openzeppelin/contracts": "^5.0.2",
     "@openzeppelin/merkle-tree": "^1.0.7",
     "@typechain/ethers-v6": "^0.5.1",
-    "@typechain/hardhat": "^9.1.0",
     "chai": "4",
     "dotenv": "^16.4.5",
-    "ethers": "^6.13.7",
-    "hardhat": "^2.23.0",
+    "hardhat": "^2.22.11",
     "install": "^0.13.0",
-    "npm": "^10.8.3",
-    "solidity-coverage": "^0.8.13",
-    "typechain": "^8.3.2"
+    "npm": "^10.8.3"
   }
 }
