@@ -2,6 +2,7 @@ const { config: dotenvConfig } = require("dotenv");
 const { resolve } = require("path");
 
 require("@nomicfoundation/hardhat-ignition-ethers");
+require("@nomicfoundation/hardhat-chai-matchers");
 
 const dotenvConfigPath = process.env.DOTENV_CONFIG_PATH || "./.env";
 dotenvConfig({ path: resolve(__dirname, dotenvConfigPath) });

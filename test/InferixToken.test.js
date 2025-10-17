@@ -8,6 +8,7 @@ describe("Inferix Token", function () {
         Inferix = await ethers.getContractFactory("Inferix");
         [owner, addr1, addr2] = await ethers.getSigners();
         inferix = await Inferix.deploy(owner.address);
+        await inferix.waitForDeployment();
     });
 
     it("should deploy with correct initial values", async function () {
