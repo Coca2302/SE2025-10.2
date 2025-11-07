@@ -291,8 +291,6 @@ là **nền tảng cho phát triển dApp**.
 
 ---
 
-**File hoàn chỉnh**: `REPORT.md`  
-Bạn chỉ cần sao chép toàn bộ nội dung trên → tạo file mới → lưu với tên `REPORT.md`.
 
-File này **chuẩn Markdown**, có phân cấp heading, bảng biểu, code block, trích dẫn – phù hợp để render trên GitHub, Notion, hoặc bất kỳ trình xem Markdown nào.
 ```
+
